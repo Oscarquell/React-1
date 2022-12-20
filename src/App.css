@@ -1,0 +1,87 @@
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    max-width: 750px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.searchInput {
+    display: inline-block;
+}
+
+.button {
+    display: inline-block;
+}
+
+.hLink {
+    display: inline-block;
+    text-decoration: none;
+    color: black    ;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+main {
+    padding: 25px;
+    margin-top: 25px;
+}
+
+.content-menu {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.content {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.image1 {
+    background: url("https://www.advgazeta.ru/upload/iblock/339/pravo_pokupatelya_na_perevozku_nekachestvennogo_tovara_v_magazin_za_schet_prodavtsa_1.jpg") center center/cover no-repeat;
+
+}
+
+.image2 {
+    background: url("https://equity.today/wp-content/uploads/kak-prodat-nehodovoy-tovar.jpg") center center/cover no-repeat;
+}
+
+.image3 {
+    background: url("https://sberbusiness.live/uploads/media/post_detail/0001/12/thumb_11173_post_detail_tablet.jpeg") center center/cover no-repeat;
+}
+
+.video-window {
+    width: 90%;
+    height: 350px;
+    margin: 35px auto 25px;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    background: dimgray;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fLink {
+    display: inline-block;
+    margin-right: 70px;
+    color: white;
+}
